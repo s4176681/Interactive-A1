@@ -23,12 +23,9 @@ example = #demo
 Style attribute = 1000
 <p style="color: pink;">
 */
+
 p {
     margin-left: 30px;
     color: red;
-
-}
-
-h1 {
-    margin-right: 100px;
+    padding-right: 3rem;
 }
