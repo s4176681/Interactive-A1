@@ -1,8 +1,20 @@
-body {
+html {
     padding: 20px;
     /*Padding puts invisible margins around the outside of all the
     text to make it look nicer and not stick towards the edges*/
 }
+
+body {
+    padding: 10px;
+}
+
+
+.question-answer{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*This specifies the dimensions and constraints of each section as a container, defining how big or small the section is supposed to be*/
 
 h1 {
     margin-bottom: 40px;
