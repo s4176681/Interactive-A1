@@ -23,27 +23,31 @@ body {
     /*adding a border effect to make each section look distinguishable, and polished.*/
     border-radius: 20px;
     /*rounded corners are added using this command.*/
-    padding: 10px;
+    padding: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 30rem;
-    /*General text constraint and specifying*/
+    /*General text constraint and specifying within the box or 'card'*/
 }
 /*This specifies the dimensions and constraints of each section as a container, defining how big or small the section is supposed to be*/
 
 summary{
     font-size: 25;
     font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 /*This makes it so that the font size of the 'summary' looks like h2, essentially replacing h2*/
 
 h1 {
     margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*selecting a font for the header, the title of the page.*/
 }
 
 h2 {
     font-size: 20;
     color: rgb(119, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* Priorities:
 p is an elemenet, which is 1 point of value(specificity)
@@ -61,9 +65,11 @@ Style attribute = 1000
 <p style="color: pink;">
 */
 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*labelling the text with a font, chosen font and colours for paragraph is sans-serif.*/
     font-size: 20;
     margin-left: 30px;
     color: rgb(11, 0, 82);
     padding-right: 3rem;
-
+    /*adjusting paragraph's text looks*/
 }
