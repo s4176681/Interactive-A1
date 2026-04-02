@@ -40,6 +40,11 @@ summary{
 h1 {
     margin-bottom: 40px;
 }
+
+h2 {
+    font-size: 20;
+    color: rgb(119, 5, 5);
+}
 /* Priorities:
 p is an elemenet, which is 1 point of value(specificity)
 
