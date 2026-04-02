@@ -7,7 +7,7 @@ html {
 body {
     padding: 5px;
     /*Creates space and room between the edge of the screen and all the of the contents.*/
-    background: linear-gradient(to bottom, rgb(135, 49, 150), rgb(157, 108, 11))
+    background: linear-gradient(to bottom, rgb(126, 1, 148), rgb(120, 86, 17))
     /*Making a background colour for the page, a nice sunset like colour to ease out the eyes in contrast to a blank white screen*/
 }
 
@@ -16,6 +16,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /*Making a grid container for sections all under div.*/
+    gap: 20px;
+    /*Figured this one out myself after some trial and error and some research.
+    'gap' allows a nice spacing to be just added around each section easily.*/
 }
 
 .question-answer{
@@ -24,8 +27,7 @@ body {
     border-radius: 20px;
     /*rounded corners are added using this command.*/
     padding: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
     max-width: 30rem;
     /*General text constraint and specifying within the box or 'card'*/
     box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.1);
